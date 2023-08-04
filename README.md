@@ -20,15 +20,15 @@ Singer
 
 CRUD Method
 
-- Create         "Post"
-- Search by id   "Get"
-- List all       "Get"
-- Update         "Put"
-- Delete         "Delete"
+- Create         "Post"      201 created
+- Search by id   "Get"       200 OK
+- List all       "Get"       200 OK
+- Update         "Put"       201 created
+- Delete         "Delete"    204 No Content "Already Deleted"
 
 Status code
 
-- 200 success
+- 200, 201 success or 204 No Content
 - Functionality Test with Boomerang - SOAP and REST Client extension browser (recommended).
 
 # URL on Oracle Cloud Infrastructure (JSON Structure)
